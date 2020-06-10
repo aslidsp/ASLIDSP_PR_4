@@ -4,11 +4,8 @@ import Room from './Room';
 
 function App() {
   
-  return (
-    <div>
-      <h3>Assignment 4</h3>
+  return (    
       <Room></Room>
-    </div>
   );
 }
 
