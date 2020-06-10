@@ -12,8 +12,6 @@ function Room() {
 
   return (
     <div className={`room ${isLit? "Lit" : "Dark"}`}>
-      <div className="heading">Assignment 4</div>
-      <br />
         This Room is <b>{isLit? "Lit" : "Dark"}</b>
         <br/> <br/>
         Age: <b>{age}</b>
@@ -22,6 +20,9 @@ function Room() {
         <button onClick={
                         () => { setAge(++age) }
         }>Increase Age</button>
+
+        <br></br>
+        <div className="heading">Assignment 4</div>
     </div>
   );
 }
